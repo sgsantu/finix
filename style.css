@@ -1,0 +1,420 @@
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+span,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-custom {
+    width: 1450px;
+    margin: auto;
+}
+
+.bg-main {
+    background-color: #F9FAFB;
+}
+
+/* comon heading */
+
+.comon {}
+
+.comon .c-h6 {
+    color: #E73B3E;
+    margin-bottom: 0;
+    margin: 12px 0px;
+}
+
+.c-h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.c-p {
+    color: #606366;
+    line-height: 25px;
+}
+
+/************************** header start **************************/
+
+.navbar-custom {}
+
+.navbar-custom ul {}
+
+.navbar-custom ul li {}
+
+.navbar-custom ul li a {
+    color: black !important;
+    text-transform: capitalize;
+}
+
+.navbar-custom ul li a:hover {
+    color: #E73B3E !important;
+}
+
+.navbar-custom ul li a span {}
+
+.navbar-custom ul li a span i {
+    font-size: 9px;
+}
+
+.heder-right-box {}
+
+.header-serch span i {
+    font-size: 20px;
+    padding: 0px 15px;
+    border-right: 2px solid black;
+}
+
+/* dropdown start */
+
+.navbar-custom ul li {
+    position: relative;
+}
+
+.navbar-custom ul li ul {
+    position: absolute;
+    top: 150%;
+    left: 0px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.navbar-custom ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 124%;
+}
+
+.navbar-custom ul li ul li {
+    list-style: none;
+}
+
+.navbar-custom ul li ul li a {
+    text-decoration: none;
+    width: 150px;
+    padding: 7px 0px;
+    display: inline-block;
+}
+
+/* dropdown end */
+
+.header-phone {
+    width: 300PX;
+}
+
+.header-phone div {}
+
+.header-phone div i {
+    font-size: 35px;
+    color: #E73B3E;
+    padding-right: 12px;
+}
+
+.header-phone div h3 {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.header-phone div a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #E73B3E !important;
+    color: #fff !important;
+    padding: 10px 16px;
+    position: relative;
+    z-index: 1;
+    border: none;
+}
+
+.btn-danger::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 00%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn-danger:hover::after {
+    opacity: 1;
+    border: #111;
+    width: 100%;
+    visibility: visible;
+}
+
+/************************** header end **************************/
+
+/************************** slider start **************************/
+
+.slider {
+    background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.slider .container-custom .slider-content {
+    height: 80vh;
+    width: 42%;
+}
+
+.slider .container-custom .slider-content span {}
+
+.slider .container-custom .slider-content span h6 {
+    color: #E73B3E;
+}
+
+.slider .container-custom .slider-content span h1 {}
+
+.slider .container-custom .slider-content span p {
+    color: #606060;
+}
+
+.slider-content {}
+
+.slider-maue {
+    position: absolute;
+    bottom: 0px;
+}
+
+.slider-maue ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-maue ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.slider-maue ul li h3 {
+    position: relative;
+}
+
+.slider-maue ul li h3::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: #111;
+    top: 50%;
+}
+
+.slider-maue ul li a {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: #111;
+}
+
+.slider-maue ul li:nth-child(2) a {
+    padding: 0px 30px;
+}
+
+/***************** about-section start *****************/
+
+.about-section {}
+
+.image-se {}
+
+.about-section .bg-image {
+    position: relative;
+}
+
+.about-section .image-text {
+    background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png) center center no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.about-section .image-text h1 {
+    color: #E73B3E;
+    font-size: 70px;
+}
+
+.about-section .image-text h4 {
+    font-weight: 700 !important;
+    font-size: 15px;
+}
+
+/* right */
+
+.comon {}
+
+.comon strong {}
+
+.comon ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.comon ul li {
+    color: #606366;
+}
+
+.comon ul li span {
+    color: #E73B3E;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/***************** about-section end *****************/
+
+/* why-us-text */
+
+.why-us-text {}
+
+.why-us-text .comon {}
+
+.why-us-text .comon img {}
+
+.why-us-text .comon .play-icon {
+    bottom: 53px;
+    right: 250px;
+}
+
+.why-us-text .comon .play-icon a {
+    display: inline-block;
+    text-align: center;
+}
+
+.why-us-text .comon .play-icon a i {
+    color: #E73B3E;
+    font-size: 55px;
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+}
+.play-icon{}
+.play-icon ::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #E73B3E;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    animation-name: play-icone-animatation ;
+    animation-timing-function: ease-out;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes play-icone-animatation{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    20%{
+        transform: scale(1.2);
+        opacity: .8;
+    }
+    40%{
+        transform: scale(1.4);
+        opacity: .6;
+    }
+    60%{
+        transform: scale(1.6);
+        opacity: .4;
+    }
+    80%{
+        transform: scale(1.8);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+/* why-us-right-sectation */
+.why-us-right-sectation{}
+.why-us-card{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+}
+.why-us-card:hover{
+    
+    transform: translateY(-18px);
+}
+.why-us-card:hover span i{
+    background-color: #E73B3E;
+    color: #fff;
+}
+.why-us-card::before{
+    content: "";
+    position: absolute;
+    top: -136px;
+    right: 10%;
+    margin: auto;
+    height: 70%;
+    width: 80%;
+    background-color: #FDEBEB;
+    border-radius: 50%;
+}
+.why-us-card span{
+    margin:11px auto 37px;
+    
+    display: inline-block;
+}
+.why-us-card span i{
+    color: #E73B3E;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    display: inline-block;
+    font-size: 45px;
+    padding: ;
+    position: relative;
+    
+    
+}
+.why-us-card h1{
+    
+    font-size: 30px;
+}
+.why-us-card p{font-size: 17px;}
+.dodsodajfo{
+    margin-top: -25px;
+}
